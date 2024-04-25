@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./feedback.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-all">
+      <h1 class="title-app">Feedback Coach</h1>
+      <div class="content-container">
+        <div class="content-top">
+          <h2 class="main-topic">Thầy dạy các em có hay không?</h2>
+          <div class="feedback-color">
+            <ul class="color-list">
+              <li><button class="color-item" id="cl-1">1</button></li>
+              <li><button class="color-item" id="cl-2">2</button></li>
+              <li><button class="color-item" id="cl-3">3</button></li>
+              <li><button class="color-item" id="cl-4">4</button></li>
+              <li><button class="color-item" id="cl-5">5</button></li>
+              <li><button class="color-item" id="cl-6">6</button></li>
+              <li><button class="color-item" id="cl-7">7</button></li>
+              <li><button class="color-item" id="cl-8">8</button></li>
+              <li><button class="color-item" id="cl-9">9</button></li>
+              <li><button class="color-item" id="cl-10">10</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="input-comment">
+          <input
+            type="text"
+            class="input-item"
+            placeholder="Write your interview..."
+            id="inputAdd"
+          />
+          <button class="input-btn" id="sendBtn">Send</button>
+        </div>
+        <hr />
+        <div class="content-bottom">
+          <div class="comment" id="commentContainer"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./feedback.js"></script>
+  </body>
+</html>

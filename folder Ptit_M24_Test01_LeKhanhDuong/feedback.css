@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.container-all {
+  background-color: black;
+  height: 100vh;
+}
+.container-all .title-app {
+  color: palevioletred;
+  text-align: center;
+  padding: 30px;
+}
+.content-container {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+.main-topic {
+  text-align: center;
+}
+
+.content-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.feedback-color {
+  display: flex;
+  justify-content: center;
+}
+.color-list {
+  display: flex;
+  gap: 20px;
+}
+
+.color-item {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: transparent;
+}
+/* color number */
+#cl-1:hover {
+  background-color: rgb(255, 0, 0);
+}
+#cl-2:hover {
+  background-color: rgb(255, 85, 0);
+}
+#cl-3:hover {
+  background-color: rgb(255, 98, 0);
+}
+#cl-4:hover {
+  background-color: rgba(255, 175, 3, 0.992);
+}
+#cl-5:hover {
+  background-color: rgb(255, 191, 0);
+}
+#cl-6:hover {
+  background-color: rgb(255, 217, 0);
+}
+#cl-7:hover {
+  background-color: rgb(221, 255, 0);
+}
+#cl-8:hover {
+  background-color: rgb(0, 255, 0);
+}
+#cl-9:hover {
+  background-color: rgb(0, 193, 103);
+}
+#cl-10:hover {
+  background-color: rgb(0, 148, 148);
+}
+/* --------------------------- */
+.input-comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 8px;
+  margin: 30px 0px;
+}
+.input-item {
+  width: 90%;
+  height: 50px;
+  border: transparent;
+  outline: transparent;
+}
+
+.input-btn {
+  padding: 10px 30px;
+  border: transparent;
+  border-radius: 6px;
+  background-color: darkgray;
+}
+/* ----------------------------- */
+.content-bottom {
+  margin-top: 20px;
+}
+.comment {
+}
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.function-btn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  color: palevioletred;
+  border: none;
+}
+.content-comment {
+}
+.content-comment p {
+  padding: 20px 10px 6px 30px;
+}
